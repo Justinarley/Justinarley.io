@@ -4,7 +4,7 @@ import ProfileJustin from './pages/profile-justin-altamirano';
 
 function AppRouter () {
   return (
-    <Router basename='/Justinarley.io'>
+    <Router basename='/Portafolio'>
       <Routes>
         <Route path="/" element={<Profiles />} />
         <Route path="/justin" element={<ProfileJustin />} />
