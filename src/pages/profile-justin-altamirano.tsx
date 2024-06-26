@@ -11,11 +11,13 @@ function ProfileJustin() {
         <div className="profile-image-container">
           <img src={Justin} alt="Perfil" className="img-fluid rounded-circle mb-3" />
         </div>
+        <hr />
           <h3>Contacto</h3>
           <p><FaPhone /> <strong>Teléfono: </strong>0961482200</p>
           <p><FaEnvelope /> <strong>Email:</strong> jusarley2003@gmail.com</p>
           <p><FaIdCard /> <strong>Identificación:</strong> 1725344665</p>
           <p><FaMapMarkerAlt /> <strong>Dirección: </strong>N 56b, Quito 170512</p>
+          <hr />
           <h3>Referencia:</h3>
           <p><FaUser /> Cristhian Pinto</p>
           <p><strong>Empresa:</strong> TOC Systems</p>

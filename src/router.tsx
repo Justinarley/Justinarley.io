@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Profiles from './pages/profiles';
 import ProfileJustin from './pages/profile-justin-altamirano';
 
-const AppRouter: React.FC = () => {
+function AppRouter () {
   return (
     <Router>
       <Routes>
