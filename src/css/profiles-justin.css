@@ -1,0 +1,35 @@
+.profile-container1 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.profile-sidebar {
+  background-color: #1a1a40; /* Azul oscuro / azul noche */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile-sidebar h3, .profile-sidebar p {
+  color: white;
+}
+
+.profile-sidebar .img-fluid {
+  border: 2px solid white;
+}
+
+.profile-sidebar strong {
+  color: white;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image-container img {
+  max-width: 100%;
+  height: auto;
+}
